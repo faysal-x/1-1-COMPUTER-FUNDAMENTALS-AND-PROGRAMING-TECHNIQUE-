@@ -1,0 +1,18 @@
+//Write a C program to multiply two numbers (4 and 5) and display its product like (4*5=20)
+
+
+#include <stdio.h>
+
+int main(){
+
+int num1=4, num2=5, product;
+
+product=num1*num2;
+
+printf("%d * %d =%d",num1, num2, product);
+
+return 0;
+
+}
+
+
