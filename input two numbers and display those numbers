@@ -1,0 +1,19 @@
+//Write a C program to input two numbers and display those numbers
+
+#include<stdio.h>
+
+int main(){
+
+int num1, num2;
+
+printf("Enter a number: ");
+scanf("%d", &num1);
+
+printf("Enter another Number: ");
+scanf("%d", &num2);
+
+printf("You Entered: %d and %d", num1, num2);
+
+return 0;
+
+}
