@@ -1,0 +1,20 @@
+//Write a C Program to input two float numbers as input and display its sum
+
+
+#include<stdio.h>
+int main(){
+
+float num1, num2, sum;
+
+printf("Enter a float number: ");
+scanf("%f", &num1);
+
+printf("Enter another float number: ");
+scanf("%f", &num2);
+
+sum = num1 + num2;
+
+printf("Sum: %f", sum);
+
+return 0;
+}
