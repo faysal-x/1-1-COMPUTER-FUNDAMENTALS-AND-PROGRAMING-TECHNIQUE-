@@ -1,0 +1,19 @@
+//Write a C program to enter length in centimeter and convert it into meter and kilometer.
+
+#include<stdio.h>
+
+int main(){
+
+float meter, kilo, centi;
+
+printf("Enter a length in Centimeter: ");
+scanf("%f", &centi);
+
+meter= centi/100;
+kilo= centi/10000;
+
+printf("Meter and kilometer is %f and %f", meter, kilo);
+
+
+return 0;
+}
