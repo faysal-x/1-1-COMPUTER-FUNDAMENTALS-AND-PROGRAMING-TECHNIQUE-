@@ -1,0 +1,20 @@
+//Write a C Program to input two numbers as input and display its product
+
+#include <stdio.h>
+
+int main(){
+
+int num1, num2, product;
+
+printf("Enter a number: ");
+scanf("%d", &num1);
+
+printf("Enter another number: ");
+scanf("%d", &num2);
+
+product = num1*num2;
+
+printf("Product: %d", product);
+
+return 0;
+}
