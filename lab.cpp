@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class friends
+class customer 
 {
     public:
     string name;
@@ -20,7 +20,7 @@ class friends
 };
 int main()
 {
-    friends f1,f2,f3;
+    customer f1,f2,f3;
     f1.setdata("Sadman", 20 , 20);
     f1.display();
     f2.setdata("Shafi",21,19);
